@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+    
+#container {
+    width: 980px;
+    margin: auto;
+    background-color: rgb(207, 209, 211) ;
+    min-height: 100vh;
+    position: relative;
+}
+
+header, footer {
+    background-color: rgb(104, 104, 104);
+    padding: 8px 16px;
+}
+
+footer {
+    text-align: center;
+}
+
+article.preview {
+    box-shadow: 0 0 15px 5px rgb(87, 100, 94);
+    margin-bottom: 32px;
+}
+
+article.preview div {
+    font-size: 80%;
+    color: rgb(65, 64, 64);
+    padding: 8px 16px;
+
+}
+
+.splash {
+    padding: 32px 64px;
+    margin: 64px;
+    box-shadow: 0 0 15px 5px rgb(87, 100, 94);
+}
+h1{
+    margin: 16px;
+}
+
+h2{
+    margin: 8px;
+}
+
+label {
+    display: block;
+    margin: 8px 0px;
+}
+label span {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    vertical-align: top;
+}
+.narrow {
+    width: 400px;
+    box-shadow: 0 0 15px 5px rgb(87, 100, 94);
+    padding: 32px 64px;
+    margin: 64px auto;
+
+}
+
+.center {
+    text-align: center;
+    
+
+}
+
+.action {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    background-color: rgb(104, 104, 104);
+    color: blanchedalmond;
+    margin: 16px;
+}
+
+.action:hover {
+    cursor: pointer;
+    background-color: rgb(122, 161, 83);
+}
+.error input, .error textarea {
+    border: 1px solid red;
+
+
+}
+.error-msg {
+    color: red;
+}
